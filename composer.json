@@ -1,0 +1,25 @@
+{
+    "name": "asus/barber-shop",
+    "description": "Barber Shop con php, sql, js",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "Asus\\BarberShop\\": "src/" ,
+            "MVC\\" : "./" ,
+            "Controllers\\" : "./controllers" ,
+            "Model\\" : "./models" ,
+            "Classes\\" : "./classes"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "OsvaldoMon",
+            "email": "monsalvoosvaldo18@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
